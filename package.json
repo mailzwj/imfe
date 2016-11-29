@@ -14,7 +14,6 @@
     "fed",
     "前端"
   ],
-  "author": "cdzhengwujiang",
   "license": "ISC",
   "dependencies": {
     "clean-css": "^3.4.21",
@@ -23,5 +22,18 @@
     "node-static": "^0.7.9",
     "shelljs": "^0.7.5",
     "uglify-js": "^2.7.4"
+  },
+  "homepage": "https://github.com/mailzwj/imfe",
+  "author": {
+    "name": "MrZheng",
+    "email": "mailzwj@126.com",
+    "url": "http://seejs.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mailzwj/imfe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mailzwj/imfe/issues"
   }
 }

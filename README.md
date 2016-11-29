@@ -1,6 +1,12 @@
 # imfe
 前端本地工程管理工具
 
+## Install
+
+```
+npm install -g imfe
+```
+
 ## 命令
 
 ```shell
