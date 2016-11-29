@@ -1,0 +1,27 @@
+{
+  "name": "imfe",
+  "version": "1.0.0",
+  "description": "IM 前端本地开发工具",
+  "main": "imfe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "imfe": "bin/imfe"
+  },
+  "keywords": [
+    "im",
+    "fed",
+    "前端"
+  ],
+  "author": "cdzhengwujiang",
+  "license": "ISC",
+  "dependencies": {
+    "clean-css": "^3.4.21",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "node-static": "^0.7.9",
+    "shelljs": "^0.7.5",
+    "uglify-js": "^2.7.4"
+  }
+}
