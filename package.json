@@ -1,6 +1,6 @@
 {
   "name": "imfe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "IM 前端本地开发工具",
   "main": "imfe.js",
   "scripts": {
