@@ -20,6 +20,7 @@ $ imfe -h
     new <dirname>    Create file or directory. eg：imfe new a/b/c.txt
     server [option]  Start static server.
     build [option]   Minify javascript and css files.
+    add <pluginName> Add a new plugin with default files.
 
   Options:
 
@@ -49,4 +50,16 @@ imfe server
 
 # 通过静态服务器访问静态资源
 http://127.0.0.1:8081/dist/js/index/index.min.js
+```
+
+## 插件开发
+```shell
+# 新建Tab插件（包含基础文件）
+imfe add tab
+
+# 启动本地静态服务
+cd tab && imfe server
+
+# 预览插件DEMO
+http://127.0.0.1:8081/demo/index.html
 ```
