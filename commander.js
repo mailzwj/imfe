@@ -60,7 +60,7 @@ function createBaseFiles(base) {
     log.info('Info: Directory initialization success.');
 }
 
-cmd.version('1.0.1')
+cmd.version('1.1.1')
     .usage('[command] [option]')
     .option('-p, --port', 'Set server port. Default as 8081.')
     .option('-d, --debug', 'Copy directories from src to dist.');
