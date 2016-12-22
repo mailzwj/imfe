@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{pluginName}} 插件演示</title>
+    <link rel="stylesheet" type="text/css" href="../css/jquery.{{pluginName}}.css">
+</head>
+<body>
+<div class="main">
+    <div id="J_PluginWrap" class="{{pluginName}}-wrap">
+        <!-- Add your plugin's structure -->
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="../js/jquery.{{pluginName}}.js"></script>
+<script>
+$(function() {
+    // jQuery plugin init
+    $('#J_PluginWrap').{{pluginName}}({
+        // params
+    });
+});
+</script>
+</body>
+</html>
