@@ -60,7 +60,7 @@ module.exports = function(cmd) {
         log.info('Info: Directory initialization success.');
     }
 
-    cmd.version('1.1.1')
+    cmd.version('1.1.2')
         .usage('[command] [option]')
         .option('-p, --port', 'Set server port. Default as 8081.')
         .option('-d, --debug', 'Copy directories from src to dist.');
