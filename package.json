@@ -16,7 +16,7 @@
   ],
   "license": "ISC",
   "dependencies": {
-    "clean-css": "^3.4.21",
+    "clean-css": "^4.1.11",
     "colors": "^1.1.2",
     "commander": "^2.9.0",
     "node-static": "^0.7.9",
